@@ -1,7 +1,7 @@
 const telegramApi = require("node-telegram-bot-api");
 const { restart } = require("nodemon");
 const { gameOptions, restartOptions } = require("./options");
-const { token } = require("./token");
+const token = require("./token");
 const sequelize = require("./db");
 const UserModel = require("./models");
 
